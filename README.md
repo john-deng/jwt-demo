@@ -10,7 +10,7 @@ go get -u github.com/john-deng/jwt-demo
 ### Generate RSA signing files via shell (adjust as needed)
 ```bash
 openssl genrsa -out config/app.rsa 1024
-openssl rsa -in app.rsa -pubout > config/app.rsa.pub
+openssl rsa -in config/app.rsa -pubout > config/app.rsa.pub
 
 ```
 
